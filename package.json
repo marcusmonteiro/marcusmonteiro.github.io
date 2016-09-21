@@ -1,0 +1,44 @@
+{
+  "name": "marcusmonteiro.github.io",
+  "version": "1.0.0",
+  "description": "Marcus Vinicius Monteiro de Souza's personal portfolio website.",
+  "scripts": {
+    "build": "hugo -t hugo-agency-theme",
+    "deploy": "deploy-to-git"
+  },
+  "config": {
+    "deployToGit": {
+      "repository": "git@github.com:marcusmonteiro/marcusmonteiro.github.io.git",
+      "branch": "master",
+      "folder": "public",
+      "script": "npm run build",
+      "commit": "Automatic commit text",
+      "user": {
+          "email": "mvsouza007@gmail.com",
+          "name": "Marcus Vinicius Monteiro de Souza"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusmonteiro/marcusmonteiro.github.io.git"
+  },
+  "keywords": [
+    "Marcus",
+    "Vinicius",
+    "Monteiro",
+    "Souza",
+    "personal",
+    "portfolio",
+    "website"
+  ],
+  "author": "Marcus Vinicius Monteiro de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusmonteiro/marcusmonteiro.github.io/issues"
+  },
+  "homepage": "https://github.com/marcusmonteiro/marcusmonteiro.github.io#readme",
+  "devDependencies": {
+    "deploy-to-git": "0.0.6"
+  }
+}
