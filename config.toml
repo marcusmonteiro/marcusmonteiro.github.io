@@ -1,0 +1,240 @@
+# Site settings
+baseurl = "http://marcusmonteiro.github.io/"
+languageCode = "en-us"
+title = "Marcus Vinicius Monteiro de Souza. Software developer. Cobol/Mainframe. Web. Android."
+theme = "hugo-agency-theme"
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Marcus Vinicius Monteiro de Souza"
+	description = "Marcus Vinicius Monteiro de Souza's personal portfolio website."
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "mvsouza007@gmail.com"
+
+    # Link custom assets relative to /static
+    custom_css = []
+    custom_js  = []
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Marcus Vinicius Monteiro de Souza"
+		services = "Skills"
+		portfolio = "Portfolio"
+		about = "About"
+		team = "Social Media"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "https://br.linkedin.com/in/marcusmonteiro3/"
+        name = "Linkedin"
+        weight = 10
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Welcome!"
+		subtitle = "Pleased to meet you!"
+		buttonText = "See if I can help"
+
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Skills"
+		subtitle = "Some of the things that I can do for you."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-database"
+                title = "Cobol / Mainframe Development"
+                description = "I have years of experience working under a Mainframe OS, especifically IBM's Z/OS. Using Cobol, SQL and a myriad of IBM utilities, I help architect, develop and maintain many insurance products of Banco do Brasil, Brazil's largest bank."
+
+            [[params.services.row.list]]
+                icon = "fa-laptop"
+                title = "Web Design and Development"
+                description = "I also have experience maintaining and developing the front and the backend of both the Bank's and my own company's applications. I use technologies such as NodeJS, Angular, React, Webpack, Mocha, Karma, MongoDB, etc..."
+
+            [[params.services.row.list]]
+                icon = "fa-mobile"
+                title = "Android"
+                description = "I can develop native Android apps with Java, using battle-tested libraries such as Retrofit, Rx, Dagger, among others."
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Portfolio"
+		subtitle = "A little bit of what I have done."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
+
+
+    # About section
+	[params.about]
+        enable = true
+		title = "A Bit About Me"
+		subtitle = "Interests and such."
+		endpoint = "And<br>programming<br>of course!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+    [[params.about.events]]
+      img = "sailing.jpg"
+      # date = "March 2011"
+      title = "Sailing"
+      description = "I love sailing, and compete in boat races alone or with my crew every so often. We win most of the competitions we're in :D (our website: http://veleiroaconchego.com.br/tripulacao.html). I like motorboats too, and stand-up paddle, and swimming... basically if it involves water, I'm in!"
+
+		[[params.about.events]]
+			img = "sanfona.jpg"
+			# date = "2007-2011"
+			title = "Music"
+			description = "I'm an amateur musician. I used to play guitar in a band (https://soundcloud.com/osgrileiros) and I love classical music, classical spanish guitar, classic rock, old Brazilian 'sertanejo' songs, and some electronic music artists (Avicii and Calvin Harris, for example)."
+
+		[[params.about.events]]
+			img = "mma.jpg"
+			#date = "December 2012"
+			title = "Fighting"
+			description = "I love MMA, boxing and kickboxing, and fighting is my favorite exercise. I don't know if mankind ever stumbled on a better way to burn calories, relieve stress and get to know oneself than martial arts."
+
+
+	# Team section
+	[params.team]
+        enable = true
+		title = "Social Media"
+		subtitle = "My presence on the web."
+		description = "A ship is safe at harbor, but that's not what ships are made for."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "marcus.jpg"
+			name = "Marcus Vinicius Monteiro de Souza"
+			position = "Software Developer"
+			social = [
+				["fa-linkedin", "https://br.linkedin.com/in/marcusmonteiro3/"],
+        ["fa-facebook", "https://www.facebook.com/marcusvinicius.monteiro.31/"],
+        ["fa-instagram", "https://www.instagram.com/marcus_vinicius_monteiro_/"],
+        ["fa-github", "https://github.com/marcusmonteiro/"],
+        ["fa-stack-exchange", "http://stackexchange.com/users/434026/marcus-vin%C3%ADcius-monteiro/"],
+        ["fa-code", "https://www.hackerrank.com/marcus_monteiro/"],
+        ["fa-code", "https://www.freecodecamp.com/marcusmonteiro/"],
+        ["fa-question", "https://www.quora.com/profile/Marcus-Souza-2/"]
+			]
+
+	# Client section
+    [params.clients_list]
+        enable = true
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "logo-banco-do-brasil.jpg"
+    		link = "http://www.bb.com.br/"
+
+    	[[params.clients]]
+    		logo = "logo-coopersystem.png"
+    		link = "http://coopersystem.com.br/"
+
+    	[[params.clients]]
+    		logo = "themeforest.jpg"
+    		link = "#"
+
+    	[[params.clients]]
+    		logo = "creative-market.jpg"
+    		link = "#"
+
+
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact"
+		subtitle  = "Send me a message!"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+        enable = false
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"
