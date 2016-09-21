@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://marcusmonteiro.github.io/"
+baseurl = "https://marcusmonteiro.github.io/"
 languageCode = "en-us"
 title = "Marcus Vinicius Monteiro de Souza. Software developer. Cobol/Mainframe. Web. Android."
 theme = "hugo-agency-theme"
