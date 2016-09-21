@@ -44,7 +44,7 @@ googleAnalytics = ""
 		services = "Skills"
 		portfolio = "Portfolio"
 		about = "About"
-		team = "Team"
+		team = "Social Media"
 		contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -59,8 +59,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
+        url = "https://br.linkedin.com/in/marcusmonteiro3/"
+        name = "Linkedin"
         weight = 10
 
 
@@ -70,14 +70,14 @@ googleAnalytics = ""
 		# the 'static/img' folder.
 		title = "Welcome!"
 		subtitle = "Pleased to meet you!"
-		buttonText = "Check me out"
+		buttonText = "See if I can help"
 
 
 	# Services section
 	[params.services]
         enable = true
 		title = "Skills"
-		subtitle = "A little bit of what I can do for you."
+		subtitle = "Some of the things that I can do for you."
 
         [[params.services.row]]
 
@@ -94,7 +94,7 @@ googleAnalytics = ""
             [[params.services.row.list]]
                 icon = "fa-mobile"
                 title = "Android"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                description = "I can develop native Android apps with Java, using battle-tested libraries such as Retrofit, Rx, Dagger, among others."
 
 	# Portfolio section
 	[params.portfolio]
@@ -104,7 +104,7 @@ googleAnalytics = ""
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Portfolio"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "A little bit of what I have done."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -116,75 +116,54 @@ googleAnalytics = ""
     # About section
 	[params.about]
         enable = true
-		title = "About"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		endpoint = "Be part<br>of our<br>story!"
+		title = "A Bit About Me"
+		subtitle = "Interests and such."
+		endpoint = "And<br>programming<br>of course!"
 
 		# The events will be listed from the top to the bottom.
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
-		[[params.about.events]]
-			img = "1.jpg"
-			date = "2009-2011"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+    [[params.about.events]]
+      img = "sailing.jpg"
+      # date = "March 2011"
+      title = "Sailing"
+      description = "I love sailing, and compete in boat races alone or with my crew every so often. We win most of the competitions we're in :D (our website: http://veleiroaconchego.com.br/tripulacao.html). I like motorboats too, and stand-up paddle, and swimming... basically if it involves water, I'm in!"
 
 		[[params.about.events]]
-			img = "2.jpg"
-			date = "March 2011"
-			title = "An Agency is Born"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "sanfona.jpg"
+			# date = "2007-2011"
+			title = "Music"
+			description = "I'm an amateur musician. I used to play guitar in a band (https://soundcloud.com/osgrileiros) and I love classical music, classical spanish guitar, classic rock, old Brazilian 'sertanejo' songs, and some electronic music artists (Avicii and Calvin Harris, for example)."
 
 		[[params.about.events]]
-			img = "3.jpg"
-			date = "December 2012"
-			title = "Our Humble Beginnings"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-
-		[[params.about.events]]
-			img = "4.jpg"
-			date = "July 2014"
-			title = "Phase Two Expansion"
-			description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+			img = "mma.jpg"
+			#date = "December 2012"
+			title = "Fighting"
+			description = "I love MMA, boxing and kickboxing, and fighting is my favorite exercise. I don't know if mankind ever stumbled on a better way to burn calories, relieve stress and get to know oneself than martial arts."
 
 
 	# Team section
 	[params.team]
         enable = true
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "Social Media"
+		subtitle = "My presence on the web."
+		description = "A ship is safe at harbor, but that's not what ships are made for."
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
+			img = "marcus.jpg"
+			name = "Marcus Vinicius Monteiro de Souza"
+			position = "Software Developer"
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-linkedin", "https://br.linkedin.com/in/marcusmonteiro3/"],
+        ["fa-facebook", "https://www.facebook.com/marcusvinicius.monteiro.31/"],
+        ["fa-instagram", "https://www.instagram.com/marcus_vinicius_monteiro_/"],
+        ["fa-github", "https://github.com/marcusmonteiro/"],
+        ["fa-stack-exchange", "http://stackexchange.com/users/434026/marcus-vin%C3%ADcius-monteiro/"],
+        ["fa-code", "https://www.hackerrank.com/marcus_monteiro/"],
+        ["fa-code", "https://www.freecodecamp.com/marcusmonteiro/"],
+        ["fa-question", "https://www.quora.com/profile/Marcus-Souza-2/"]
 			]
 
 	# Client section
@@ -194,12 +173,12 @@ googleAnalytics = ""
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
     	[[params.clients]]
-    		logo = "envato.jpg"
-    		link = "#"
+    		logo = "logo-banco-do-brasil.jpg"
+    		link = "http://www.bb.com.br/"
 
     	[[params.clients]]
-    		logo = "designmodo.jpg"
-    		link = "#"
+    		logo = "logo-coopersystem.png"
+    		link = "http://coopersystem.com.br/"
 
     	[[params.clients]]
     		logo = "themeforest.jpg"
@@ -213,8 +192,8 @@ googleAnalytics = ""
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
+		title = "Contact"
+		subtitle  = "Send me a message!"
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
@@ -237,7 +216,7 @@ googleAnalytics = ""
 
 	# Footer section
 	[params.footer]
-        enable = true
+        enable = false
 		copyright = "Published under the Apache License 2.0."
 
 		[[params.footer.social]]
