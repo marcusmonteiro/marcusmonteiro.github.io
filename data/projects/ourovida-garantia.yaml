@@ -1,0 +1,10 @@
+modalID: 3
+title: Ourovida Garantia
+subtitle: An insurance product. The insured has his/her debts paid off in case of death or permanent disablement.
+date: 2015
+img: logo-banco-do-brasil.jpg
+preview: logo-banco-do-brasil.jpg
+client: Banco do Brasil
+clientLink: "http://www.bb.com.br/"
+category: Insurance
+description: A life insurance whereby the insured has his/her debts paid off in case of death or permanent disablement. It was built using Cobol, JCL, SQL, NATURAL, Java (to access the Cobol backend using a technology called "containers"), Angular (for the web application frontend) and native Android APIs for the mobile application.
