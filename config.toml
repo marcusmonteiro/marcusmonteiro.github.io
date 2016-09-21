@@ -180,14 +180,6 @@ googleAnalytics = ""
     		logo = "logo-coopersystem.png"
     		link = "http://coopersystem.com.br/"
 
-    	[[params.clients]]
-    		logo = "themeforest.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "creative-market.jpg"
-    		link = "#"
-
 
 	# Contact section
 	[params.contact]
