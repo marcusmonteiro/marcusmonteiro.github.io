@@ -3,7 +3,7 @@
 
 ### Hugo ###
 hugo.exe
-/public/
+public
 
 ### VisualStudioCode ###
 .vscode/*
