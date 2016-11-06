@@ -1,0 +1,10 @@
+modalID: 9
+title: Random Quote Machine
+subtitle: Build a Random Quote Machine project from FreeCodeCamp.
+date: 2016
+img: random-quote-machine.png
+preview: random-quote-machine.png
+client: FreeCodeCamp
+clientLink: "http://codepen.io/marcusmonteiro/full/QKPaVq/"
+category: Web
+description: Use Forismatic's API to fetch a random quote and displays it. The user can click a button to fetch another one. To build this I used React.js . I used a Test-Driven approach, helped by tools such as Jest, Chai and Enzyme. The code is written in ES6 (via Webpack), linted and well organized. For styling, I used React-Bootstrap and Material-UI. To access the API, I used JQuery.

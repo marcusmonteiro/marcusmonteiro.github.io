@@ -174,12 +174,15 @@ googleAnalytics = ""
     	# Replace them with your clients's logos.
     	[[params.clients]]
     		logo = "logo-banco-do-brasil.jpg"
-    		link = "http://www.bb.com.br/"
+    		link = "https://www.bb.com.br/"
 
     	[[params.clients]]
     		logo = "logo-coopersystem.png"
-    		link = "http://coopersystem.com.br/"
+    		link = "http://www.coopersystem.com.br/"
 
+      [[params.clients]]
+        logo = "logo-freecodecamp.jpg"
+        link = "https://www.freecodecamp.com/"
 
 	# Contact section
 	[params.contact]

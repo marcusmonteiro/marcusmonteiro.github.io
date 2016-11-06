@@ -1,0 +1,10 @@
+modalID: 10
+title: Show Local Weather
+subtitle: Build a Show Local Weather project from FreeCodeCamp.
+date: 2016
+img: show-local-weather.png
+preview: show-local-weather.png
+client: FreeCodeCamp
+clientLink: "http://codepen.io/marcusmonteiro/full/BLXzvO/"
+category: Web
+description: Use OpenWeatherMap's API to fetch information on the weather of the user's current location and displays it. The user can choose between metric and imperial units. To build this I used React.js . I used a Test-Driven approach, helped by tools such as Jest, Chai and Enzyme. The code is written in ES6 (via Webpack), linted and well organized. For styling, I used React-Bootstrap and Material-UI. To access the API, I used JQuery.

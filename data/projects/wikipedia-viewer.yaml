@@ -1,0 +1,10 @@
+modalID: 6
+title: Wikipedia Viewer
+subtitle: Build a Wikipedia Viewer project from FreeCodeCamp.
+date: 2016
+img: wikipedia-viewer.png
+preview: wikipedia-viewer.png
+client: FreeCodeCamp
+clientLink: "https://marcusmonteiro.github.io/wikipedia-viewer/"
+category: Web
+description: Using it's API, search Wikipedia for a user defined search term and renders a list of links. To build this I used React.js . I used a Test-Driven approach, helped by tools such as Jest, Chai and Enzyme. The code is written in ES6 (via Webpack), linted and well organized. For styling, I used React-Bootstrap and Material-UI. To access the API, I used superagent.
