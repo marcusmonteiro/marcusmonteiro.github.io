@@ -4,7 +4,7 @@ subtitle: Build a Javascript Calculator project from FreeCodeCamp.
 date: 2016
 img: javascript-calculator.png
 preview: javascript-calculator.png
-client: FreeCodeCamp
+client: Live app
 clientLink: "https://marcusmonteiro.github.io/javascript-calculator/"
 category: Web
 description: To build this I used React.js . I used a Test-Driven approach, helped by tools such as Jest, Chai and Enzyme. The code is written in ES6 (via Webpack), linted and well organized. For styling, I used React-Bootstrap and Material-UI.

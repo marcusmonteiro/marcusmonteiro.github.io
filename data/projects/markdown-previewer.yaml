@@ -1,0 +1,10 @@
+modalID: 11
+title: Markdown Previewer
+subtitle: Build a Markdown Previewer project from FreeCodeCamp.
+date: 2017
+img: markdown-previewer.png
+preview: markdown-previewer.png
+client: Live app
+clientLink: "https://marcusmonteiro.github.io/markdown-previewer/"
+category: Web
+description: To make this project, I used the very fun and promising Elm language (http://elm-lang.org/), an Elm markdown parsing and rendering library (https://github.com/evancz/elm-markdown), and materialize-css (http://materializecss.com/).
