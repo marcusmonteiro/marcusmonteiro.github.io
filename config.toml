@@ -163,7 +163,8 @@ googleAnalytics = ""
         ["fa-stack-exchange", "http://stackexchange.com/users/434026/marcus-vin%C3%ADcius-monteiro/"],
         ["fa-code", "https://www.hackerrank.com/marcus_monteiro/"],
         ["fa-code", "https://www.freecodecamp.com/marcusmonteiro/"],
-        ["fa-question", "https://www.quora.com/profile/Marcus-Souza-2/"]
+        ["fa-question", "https://www.quora.com/profile/Marcus-Souza-2/"],
+        ["fa-code", "https://leetcode.com/marcusmonteiro/"],
 			]
 
 	# Client section
